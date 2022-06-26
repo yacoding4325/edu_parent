@@ -9,7 +9,6 @@
         <outputRelativeToContentRoot value="true" />
         <module name="common_util" />
         <module name="service_edu" />
-        <module name="service" />
         <module name="service_base" />
       </profile>
     </annotationProcessing>

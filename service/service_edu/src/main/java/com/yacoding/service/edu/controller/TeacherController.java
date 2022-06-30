@@ -20,6 +20,7 @@ import java.util.List;
  * * 讲师 前端控制器
  *
  */
+
 @Api(description = "讲师管理")
 @RestController
 @RequestMapping("/edu/teacher")
@@ -46,4 +47,5 @@ public class TeacherController {
         }
         return R.error().message("数据不存在");
     }
+
 }

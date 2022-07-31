@@ -60,7 +60,6 @@ public enum ResultCodeEnum {
     LOGIN_ACL(false, 28005, "没有权限"),
     SMS_SEND_ERROR(false, 28006, "短信发送失败"),
     SMS_SEND_ERROR_BUSINESS_LIMIT_CONTROL(false, 28007, "短信发送过于频繁");
-
     private final Boolean success;
 
     private final Integer code;
